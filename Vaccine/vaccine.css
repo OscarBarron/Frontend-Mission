@@ -1,0 +1,557 @@
+.title
+{
+    color:#3353d1;
+    font-family: Aharoni;
+    font-weight: bold;
+    font-size: 40px;
+}
+.navegador
+{
+    color: #6d7b93;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.divtitle{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+}
+.divnav{
+    position: absolute;
+    top: 50px;
+    left: 710px;
+
+}
+.labelnav{
+    margin-left: 75px;
+}
+.buttonnav{
+    background-color: #2f4fcd;
+    font-weight: bold;
+    font-size: 100px;
+    border: none;
+    color: White;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 45px;
+    padding: 25px 60px ;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.divenfermera{
+    position:absolute;
+    top: 175px;
+    right: 0%;
+    width: 960px;
+    height: 1120px;
+    
+}
+.divtext{
+    position:absolute;
+    top:250px;
+    left:160px;
+}
+.divsubtitlte{
+    color:#1f3e72;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 80px;
+    
+}
+.p1{
+    color:#6e7c93;
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.protection{
+    position: absolute;
+    top: 500px;
+}
+.labelprotection{
+    position: absolute; 
+    left: 50px;
+    top: 485px;
+    color: #314e7d;
+    font-family: Verdana;
+    font-size: 18px;
+}
+.SelectVaccine{
+    position: absolute;
+    top: 500px;
+    left: 280px;
+    
+}
+.labelSelect{
+    position: absolute; 
+    left: 330px;
+    top: 485px;
+    color: #314e7d;
+    font-family: Verdana;
+    font-size: 20px;
+}
+.reloj{
+    position: absolute;
+    top: 735px;
+}
+.shedule{
+    position: absolute;
+    top: 730px;
+    left:70px;
+    color: #224174;
+    font-family: Verdana;
+    font-size: 25px;
+}
+.divlocation{
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 1070px;
+    left: 160px;
+    width: 1375px;
+    height: 190px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.iconlocation{
+    position: absolute;
+    top:50px;
+    left: 60px;
+}
+.labellocation{
+    position:absolute;
+    top:55px;
+    left: 120px;
+    color: #6d7b93;
+    font-family: verdana;
+    font-size: 30px;
+}
+.icondate{
+    position: absolute;
+    top:50px;
+    left: 380px;
+}
+.labeldatevaccine{
+    position:absolute;
+    top:55px;
+    left: 360px;
+    margin-left: 75px;
+    color: #6d7b93;
+    font-family: verdana;
+    font-size: 30px;
+}
+.iconvaccine{
+    position: absolute;
+    top:50px;
+    left: 700px;
+}
+.labelvaccine{
+    position:absolute;
+    top:55px;
+    left: 690px;
+    margin-left: 75px;
+    color: #6d7b93;
+    font-family: verdana;
+    font-size: 30px;
+}
+.buttonsubmit{
+    position: absolute;
+    top: 50px;
+    left: 1050px;
+    background-color: #2f4fcd;
+    font-family: verdana;
+    border: none;
+    color: White;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 45px;
+    padding: 25px 60px ;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.labelJakarta{
+    position: absolute;
+    top: 80px;
+    left:120px;
+    color: #224174;
+    font-family: Verdana;
+    font-size: 30px;
+}
+.labeljuly{
+    position: absolute;
+    top: 80px;
+    left:440px;
+    color: #224174;
+    font-family: Verdana;
+    font-size: 30px;
+}
+.LabelModerna{
+    position: absolute;
+    top: 80px;
+    left:770px;
+    color: #224174;
+    font-family: Verdana;
+    font-size: 30px;
+}
+.vacunasimg
+{
+    position: absolute;
+    top: 1380px;
+    left: 200px;
+}
+.divWhyShould{
+    position: absolute;
+    top: 1680px;
+    left: 200px;
+}
+.h2whyShould{
+    color: #1f3e72;
+    font-size: 50px;
+    font-family: verdana;
+}
+.pwhyShould{
+    color: #6d7b93;
+    font-size: 28px;
+    font-family: Verdana;
+}
+.divmini{
+    position: absolute;
+    top: 2000px;
+    left: 180px;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.divforming{
+    position: absolute;
+    top: 2000px;
+    left: 580px;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.divProtecting{
+    position: absolute;
+    top: 2000px;
+    left: 980px;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.divCreating{
+    position: absolute;
+    top: 2000px;
+    left: 1380px;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.titlemini{
+    color: #1f3e72;
+    font-family: Verdana;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.textomini{
+    color: #6d7b93;
+    font-size: 20px;
+    font-family: Verdana;
+    margin-left: 20px;
+}
+.imgdivs{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.divPreparation{
+    position: absolute;
+    top: 2600px;
+    left: 850px;
+}
+.imgmorra{
+    position: absolute;
+    top: 2800px;
+    left: 0%;
+}
+.divtarjetas{
+    position: absolute;
+    top: 3000px;
+    left: 950px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid  #e3e6ea;
+    width: 700px;
+    height: 80px;
+}
+.divavoidtitulo{
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    color: #1f3e72;
+    font-family: verdana;
+    font-size: 30px;
+}
+.diviconotacheseguro{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.diviconoflecha{
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+.divtarjetas1{
+    position: absolute;
+    top: 3100px;
+    left: 950px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 700px;
+    height: 220px;
+}
+.divtarjetatitulo{
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    color: #1f3e72;
+    font-family: verdana;
+    font-size: 30px;
+}
+.divtarjetaicono1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.divtarjetasflecha{
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+.divtarjetastexto{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    color: #6d7b93;
+    font-size: 20px;
+    font-family: verdana;
+}
+.divtarjetas2{
+    position: absolute;
+    top: 3350px;
+    left: 950px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid  #e3e6ea;
+    width: 700px;
+    height: 80px;
+}
+.divtarjetas3{
+    position: absolute;
+    top: 3450px;
+    left: 950px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid  #e3e6ea;
+    width: 700px;
+    height: 80px;
+}
+.divtarjetas4{
+    position: absolute;
+    top: 3550px;
+    left: 950px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid  #e3e6ea;
+    width: 700px;
+    height: 80px;
+}
+.divEmergency{
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+}
+.imgmorro{
+    position: absolute;
+    top: 3970px;
+    right: 0%;
+}
+.divcomunicaciones{
+    position: absolute;
+    top:4200px;
+    left: 100px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid  #e3e6ea;
+    width: 400px;
+    height: 300px;
+}
+.divcomunicaciontitulo{
+    position: absolute;
+    top: 45px;
+    left: 130px;
+    color: #1f3e72;
+    font-family: verdana;
+    font-size: 30px;
+}
+.divcomunicacioncono{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.divtarjetastexto{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    color: #6d7b93;
+    font-size: 18px;
+    font-family: verdana;
+}
+.buttoncall{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    background-color: #e1eafc;
+    font-weight: bold;
+    font-size: 100px;
+    border: none;
+    color: #3353d1;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 45px;
+    padding: 25px 60px ;
+    border-radius: 12px; 
+}
+.divcomunicaciones1{
+    position: absolute;
+    top:4200px;
+    left: 550px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid  #e3e6ea;
+    width: 400px;
+    height: 300px;
+}
+.buttoncall1{
+    background-color: #3353d1;
+    font-weight: bold;
+    font-size: 100px;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    padding: 25px 60px ;
+    border-radius: 12px; 
+}
+.buttonleft1{
+    position: absolute;
+    margin-left: 45px;
+    top: 180px;
+    left: 20px;
+}
+.buttonleft2{
+    position: absolute;
+    top: 180px;
+    left: 5px;
+    margin-left: 30px;
+}
+.divcomunicaciones2{
+    position: absolute;
+    top:4560px;
+    left: 550px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid  #e3e6ea;
+    width: 400px;
+    height: 300px;
+}
+.divcomunicaciones3{
+    position: absolute;
+    top:4560px;
+    left: 100px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid  #e3e6ea;
+    width: 400px;
+    height: 300px;
+}
+.section{
+    position: absolute;
+    top: 5000px;
+    height: 500px;
+    width: 1890px;
+    background-color: #eef3ff;
+}
+.footertitle{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: 30px;
+}
+.footerexto{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    color: #6d7b93;
+    font-size: 25px;
+    font-family: verdana;
+}
+.footersubtitle{
+    color: #1f3e72;
+    position: absolute;
+    top: 50px;  
+    left: 1100px;
+    font-family: verdana;
+    font-size: 20px;
+}
+.footersubtitletext{
+    color: #6d7b93;
+    position: absolute;
+    font-family: verdana;
+    font-size: 20px;
+}
+.footersubtitle2{
+    color: #1f3e72;
+    position: absolute;
+    top: 50px;  
+    left: 1300px;
+    font-family: verdana;
+    font-size: 20px;
+}
+.footersubtitle3{
+    color: #1f3e72;
+    position: absolute;
+    top: 50px;  
+    left: 1500px;
+    font-family: verdana;
+    font-size: 20px;
+}
+.footersubtitletext1{
+    position: absolute;
+    bottom: 0%;  
+    left: 1400px;
+    color: #6d7b93;
+    position: absolute;
+    font-family: verdana;
+    font-size: 20px;
+}
+.footersubtitletext2{
+    position: absolute;
+    bottom: 0%;  
+    left: 100px;
+    color: #6d7b93;
+    position: absolute;
+    font-family: verdana;
+    font-size: 20px;
+}
