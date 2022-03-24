@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <div class="divpokedex"><img class="pokedexstyle" src="./SRC/images/pokedex.png" alt="pokedex">
+        <div class="divpokemon"><img src="./SRC/images/pokebola.png" alt="Pokemon" id="pokeImg" width="150px"></div>
+        <div class="divpokenombre"><label class="pokenombre" id="pokeNombre"></label></div></div>
+    <div class="divtexto"><input class="nombre" type="text" placeholder="   # - Picachu " name="pokeName" id="pokeName"></div>
+    <div class="divbotonsend"><button class="sendboton" onclick="fetchPokemon()"></button></div>
+    <div class="divpoketipo">
+        <div><label class="poketipo" id="pokeTipo"></label></div>
+        <label class="pokehabilidades" name="pokeStatshp" id="pokeStatshp"></label>
+        <label class="pokehabilidades" name="pokeStatsAtack" id="pokeStatsAtack"></label>
+        <label class="pokehabilidades" name="pokeStatsDefense" id="pokeStatsDefense"></label>
+        <label class="pokehabilidades" name="pokeStatsSP" id="pokeStatsSP"></label>
+        <label class="pokehabilidades" name="pokeStatsSpeed" id="pokeStatsSpeed"></label>
+    </div>  
+    <div class="divmovimientos">
+        <p class="pokemoviimientos" id="pokeMoves"></p>
+    </div>
+    
+</body>
+<footer>
+    
+    <script src="./pokedex.js"></script>
+</footer>
+</html>

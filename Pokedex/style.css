@@ -1,0 +1,115 @@
+body{
+    background-image: url("./SRC/images/pokeballfondo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.pokedexstyle{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+.divpokedex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+}
+.divpokemon{
+    display: flex;
+    position: absolute;
+    top: 253px;
+    left: 549px;
+    width: 250px;
+    height: 165px;
+    justify-content: center;
+}
+.divtexto{
+    position: absolute;
+    top: 553px;
+    left: 573px;
+}
+.nombre{
+    background: none;
+    border: 0px;
+    width: 120px;
+    height:50px ;
+    outline: none;
+    color: gray;
+    text-align-last: center;
+}
+.divbotonsend{
+    position: absolute;
+    top: 480px;
+    left: 520px;
+}
+.sendboton{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: none;
+    border: none;
+}
+.divpokenombre{
+    position: absolute;
+    top: 390px;
+    left: 640px;
+    background-color: beige;
+}
+.pokenombre{
+    display: flex;
+    justify-content: center;
+    text-align-last: center;
+}
+.divpoketipo{
+    position: absolute;
+    top: 270px;
+    left: 960px;
+    width: 300px;
+    height: 80px;
+    overflow: auto;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+  }
+.poketipo{
+    display: flex;
+    text-align-last: center;
+    color: wheat;
+}
+.divmovimientos{
+    position: absolute;
+    top: 378px;
+    left: 945px;
+    width: 258px;
+    height: 80px;
+    background-color: #084035;
+    border-radius: 12px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    overflow: auto;
+}
+.pokemoviimientos{
+    color: wheat;
+}
+.pokehabilidades{
+    display: flex;
+    text-align: left;
+    color: wheat;
+}
